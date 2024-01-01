@@ -7,7 +7,7 @@ import { Marked } from 'marked'
 import { markedHighlight } from 'marked-highlight'
 import hljs from 'highlight.js'
 import markedKatex from 'marked-katex-extension'
-import historyIcon from '../../public/icons/history_FILL0_wght400_GRAD0_opsz24.svg'
+import historyIcon from '@/public/icons/history_FILL0_wght400_GRAD0_opsz24.svg'
 
 interface ArticleHeaderData {
   title: string
