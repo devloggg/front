@@ -1,4 +1,8 @@
-import { Metadata } from "next"
+import Footer from '@/components/footer'
+import Header from '@/components/header'
+import { Metadata } from 'next'
+
+import '@/styles/RootLayout.sass'
 
 export const metadata: Metadata = {
   title: 'Devlog',
@@ -12,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div className="main__content">{children}</div>
+        <Footer />
+      </body>
     </html>
   )
 }
