@@ -8,7 +8,7 @@ export default function Footer(): React.ReactNode {
       <div className="bar" />
       <div className="info-box">
         <div className="title">
-          <h1>Dev</h1>
+          <h1>Devlog</h1>
         </div>
         <div className="info">
           <a href="https://github.com/devloggg">Github</a>
